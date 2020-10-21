@@ -12,7 +12,6 @@ func main() {
 			})
 		})
 	}
-
 	v2 := r.Group("/v2")
 	{
 		v2.GET("/ping", func(c *gin.Context) {
